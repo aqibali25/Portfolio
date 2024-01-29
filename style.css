@@ -263,16 +263,16 @@ section .title::after {
 
 /* services section styling */
 .services,
-.teams {
+.contact {
   color: #fff;
   background: #111;
 }
 .services .title::before,
-.teams .title::before {
+.contact .title::before {
   background: #fff;
 }
 .services .title::after,
-.teams .title::after {
+.contact .title::after {
   background: #111;
   content: "what i provide";
 }
@@ -543,9 +543,9 @@ section .title::after {
 }
 /* footer section styling */
 footer {
-  background: #111;
+  background: #fff;
   padding: 15px 23px;
-  color: #fff;
+  color: #111;
   text-align: center;
 }
 footer span a {
